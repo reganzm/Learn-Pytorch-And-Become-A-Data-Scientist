@@ -1,7 +1,6 @@
 ﻿### Learn-Pytorch-And-Become-A-Data-Scientist
 《学好Pytorch成为数据科学家》书籍代码
 ### 图书目录
-前言	9
 ```
 第1章  初识Pytorch	11
 ```
