@@ -1,0 +1,25 @@
+#!wing
+#!version=6.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.directory-list = [{'dirloc': loc('.'),
+                        'excludes': (),
+                        'filter': u'*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-type = 'shared'
+proj.launch-config = {loc('bert-Chinese-classification-task-master/download_glue_data.py'): ('p'\
+        'roject',
+        (u'"diagnostic" "./datas"',
+         '')),
+                      loc('bert-Chinese-classification-task-master/run_classifier_word.py'): ('p'\
+        'roject',
+        (u'--task_name NEWS --do_train --do_eval --data_dir ./data/ --vocab_file ./vocab.txt --bert_config_file ./bert_config.json --init_checkpoint ./bert_model.bin --max_seq_length 256 --train_batch_size 32 --learning_rate 2e-3 --num_train_epochs 30.0 --output_dir ./newsAll_output/ --local_rank 3\n',
+         '')),
+                      loc('torch/hub/huggingface_pytorch-pretrained-BERT_master/pytorch_transformers/convert_tf_checkpoint_to_pytorch.py'): ('p'\
+        'roject',
+        (u'--tf_checkpoint_path ./bert_model.ckpt  --bert_config_file ./bert_config.json  --pytorch_dump_path ./pytorch_model.bin',
+         ''))}
