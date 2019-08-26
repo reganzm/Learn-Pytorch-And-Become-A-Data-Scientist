@@ -1,6 +1,6 @@
-﻿### Learn-Pytorch-And-Become-A-Data-Scientist
-###《学好Pytorch成为数据科学家》书籍代码
-### 请扫描关注，图书微信公众号。
+﻿###  Learn-Pytorch-And-Become-A-Data-Scientist
+### 《学好Pytorch成为数据科学家》书籍代码
+###  请扫描关注，图书微信公众号。
 ![avatar](gongzhonghao.jpg)
 ### 图书目录
 ```
